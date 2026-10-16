@@ -23,7 +23,6 @@ Claude が更新するときも、人が更新するときも、HTMLファイル
 - **ニュースを追加**：`news/website-renewal.html` をコピーして新しい記事を作り、`news/index.html` の一覧の一番上に1行足す。
 - **実績を追加**：`index.html`（トップは6件まで）と `works/index.html` の `<article class="case">` を1つ足す。
 - **パネル人数を更新**：`index.html` の PANEL セクションと `services/index.html` の 03、トップの数字の帯（約3,300名）。
-- **会社概要に設立・代表者を追加**：`company/index.html` のコメントアウトを外して記入。
 - **問い合わせの送り先**：`contact/index.html` の `data-to="..."` と、右側の連絡先。
 
 ## 問い合わせフォーム
