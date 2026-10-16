@@ -185,3 +185,24 @@ fieldset.field legend{padding:0;margin-bottom:6px}
 .site-footer small{display:block;margin-top:14px;font-size:12px}
 
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* スマホ調整 2026-10-16 */
+.form input[type=radio]{width:18px;height:18px;padding:0;margin:0;flex:none;accent-color:var(--blue2)}
+.radios label{border:1px solid var(--line);border-radius:999px;padding:8px 14px;background:#FFFFFF;cursor:pointer;line-height:1.4}
+.radios label:has(input:checked){border-color:var(--blue2);background:var(--chip-bg)}
+@media (max-width:560px){
+  .radios{flex-direction:column;align-items:stretch;gap:8px}
+  .radios label{border-radius:10px;padding:12px 14px}
+  .hero .ctas .btn{flex:1 1 100%;justify-content:center;text-align:center}
+  .cta .btn{width:100%;justify-content:center;text-align:center}
+  .form .btn{width:100%;justify-content:center}
+  .case{padding:20px}
+  .case dl{grid-template-columns:3em 1fr}
+}
+@media (max-width:420px){
+  .stat{padding:18px 12px}
+  .stat b{font-size:19px;white-space:nowrap}
+  .stat span{font-size:12px}
+}
+.stat span{word-break:auto-phrase}
+.news-list .chip{justify-self:start}
