@@ -36,3 +36,9 @@ Claude が更新するときも、人が更新するときも、HTMLファイル
 1. このフォルダの中身をリポジトリのルートに置く
 2. リポジトリの Settings › Pages で「Deploy from a branch」→ `main` / `/(root)`
 3. 独自ドメインを使う場合は Settings › Pages の Custom domain に入力し、DNSに GitHub Pages 用のレコードを追加
+
+## 消してはいけないファイル
+
+- `CNAME`：独自ドメイン www.buy4.co.jp の設定（GitHub Pages）
+- `googleffe0e911483fc776.html`：Google Search Console の所有権確認（消すと確認が外れる）
+- `sitemap.xml`：ページを増やしたら1行足す
